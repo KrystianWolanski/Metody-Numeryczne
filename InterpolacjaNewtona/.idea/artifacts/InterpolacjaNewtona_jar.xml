@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InterpolacjaNewtona:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InterpolacjaNewtona_jar</output-path>
+    <root id="archive" name="InterpolacjaNewtona.jar">
+      <element id="module-output" name="InterpolacjaNewtona" />
+    </root>
+  </artifact>
+</component>
