@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Podaj liczbe argumentów: ");
-        final int n = scan.nextInt();
+		final int n = scan.nextInt();
 
 		int x[] = new int[n];
 		double y[] = new double[n];
 		double fx;
-        for(int i=0;i<n;i++){
+		for(int i=0;i<n;i++){
 			System.out.print("x"+i+" = ");
 			x[i] = scan.nextInt();
 			System.out.print("y(x"+i+") = ");
@@ -20,17 +20,22 @@ public class Main {
 			System.out.println();
 		}
 
-		System.out.println("Współczynniki wielomianu to:");
-		System.out.println(y[0]);
-        int copy_n = n;
-        for(int wezel=0;wezel<n-1;wezel++){
-			fx = y[0];
-			for(int i=0;i<copy_n-1;i++){
-				y[i] = (fx - y[i+1]) / (x[wezel] - x[i+1+wezel]);
+		StringBuilder wezly= new StringBuilder();
+
+
+		System.out.print("N(x) = "+y[0]);
+
+		for(int wezel=0;wezel<n-1;wezel++){
+			for(int i=1+wezel;i<n;i++){
+				y[i] = (y[wezel] - y[i]) / (x[wezel] - x[i]);
 			}
-			copy_n--;
-			System.out.println(y[0]);
+			fx = y[wezel+1];
+			if(x[wezel]>=0)
+				wezly.append("(x - ").append(x[wezel]).append(")");
+			else
+				wezly.append("(x + ").append(x[wezel]*-1).append(")");
+			System.out.print(fx + wezly.toString() +" + ");
 
 		}
-    }
+	}
 }
