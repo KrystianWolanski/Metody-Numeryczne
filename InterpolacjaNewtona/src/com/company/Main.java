@@ -23,7 +23,7 @@ public class Main {
 		StringBuilder wezly= new StringBuilder();
 
 
-		System.out.print("N(x) = "+y[0]);
+		System.out.print("N(x) = "+y[0]+" + ");
 
 		for(int wezel=0;wezel<n-1;wezel++){
 			for(int i=1+wezel;i<n;i++){
@@ -34,8 +34,10 @@ public class Main {
 				wezly.append("(x - ").append(x[wezel]).append(")");
 			else
 				wezly.append("(x + ").append(x[wezel]*-1).append(")");
-			System.out.print(fx + wezly.toString() +" + ");
 
+			System.out.print(fx + wezly.toString());
+			if(wezel<n-2)
+				System.out.print(" + ");
 		}
 	}
 }
