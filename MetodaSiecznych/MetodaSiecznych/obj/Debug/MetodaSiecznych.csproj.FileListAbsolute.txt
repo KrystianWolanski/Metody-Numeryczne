@@ -1,0 +1,7 @@
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\bin\Debug\MetodaSiecznych.exe.config
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\bin\Debug\MetodaSiecznych.exe
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\bin\Debug\MetodaSiecznych.pdb
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\obj\Debug\MetodaSiecznych.csprojAssemblyReference.cache
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\obj\Debug\MetodaSiecznych.csproj.CoreCompileInputs.cache
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\obj\Debug\MetodaSiecznych.exe
+C:\Users\Krystian\Documents\Visual Studio 2017\Projects\MetodaSiecznych\MetodaSiecznych\obj\Debug\MetodaSiecznych.pdb
